@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Responsive Profile Card</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="prifileCard1.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="profile-card">
+        <img src="/images.jpg" alt="Profile Picture" class="profile-pic">
+        <h2 class="name">Aarti Choudhari</h2>
+        <p class="designation">Web Developer</p>
+        <p class="bio">Passionate about creating clean and efficient web solutions.
+            Always eager to learn and explore new technologies.</p>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fab-linkedin"></i>
+                    <img id="icon1" src="/linkedin.png" alt="">
+                </a>
+                <a href="#" class="icon"><i class="fab-github"></i>
+                    <img id="icon1" src="/gitH.png" alt="">
+                </a>
+                <a href="#" class="icon"><i class="fab-twitter"></i>
+                    <img id="icon1" src="./twitter.png" alt="">
+                </a>
+                <a href="#" class="icon"><i class="fab-instagram"></i>
+                    <img id="icon1" src="/insta.jpg" alt="">
+                </a>
+            </div>
+    </div>
+</body>
+
+</html>
